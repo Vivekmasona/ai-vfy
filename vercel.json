@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/enhance.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/enhance", "dest": "api/enhance.js" }
+  ]
+}
